@@ -1,0 +1,163 @@
+html {
+  background-color: #E4FFF9;
+}
+
+.header-logo{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.site-logo {
+  width: 70px;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  color: #191970;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.phone {
+  display: flex;
+  justify-content: flex-end;
+  color: blue;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 100%;
+  height: 50px;
+  background: #F2F5A9;
+  border: solid black 2px;
+  border-radius:10px;
+}
+
+.menu-item:hover {
+  background: #F4FA58	;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  height: 100%;
+}
+
+.menu-name {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 5px;
+  color: #006400;
+  font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-children {
+    display: none;
+    background-color: #B0E0E6;
+    min-width: 200px;
+}
+
+
+.dropdown:hover .drop-children {
+    display: block;
+}
+
+.main-photo {
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+figure {
+  text-align: center;
+}
+
+
+.trip-img {
+  text-align: center;
+}
+
+.trip-img>img:hover {
+  transform: scale(1.1);
+}
+
+p, ul, li {
+  margin: 25px;
+  font-size: 17px;
+  font-family: Roboto, Tahoma, Geneva, Arial, Times,  sans-serif;
+}
+
+.table-block {
+  display:flex;
+  justify-content: center;
+}
+
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+th {
+  padding: 10px 20px;
+  background:#98FB98;
+  color:#006400;
+  font-size: 0.9em;
+  border: 2px solid black;
+}
+
+.th-name {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  border: 2px solid black;
+}
+
+
+td {
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #56433D;
+}
+
+td:first-child {
+  border: 2px solid black;
+  color: #0000CD;
+}
+
+
+.map {
+  text-align: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.form-text {
+  font-size: 18px;
+  color: blue;
+}
+
+footer {
+  text-align: center;
+}
